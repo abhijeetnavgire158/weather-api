@@ -1,12 +1,25 @@
 {
-  "name": "express",
+  "name": "express-latest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "node src/app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijeetnavgire158/weather-api.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhijeetnavgire158/weather-api/issues"
+  },
+  "homepage": "https://github.com/abhijeetnavgire158/weather-api#readme"
 }
